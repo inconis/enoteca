@@ -1,0 +1,11 @@
+.elementor-13 .elementor-element.elementor-element-b996fa8:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-b996fa8>.elementor-motion-effects-container>.elementor-motion-effects-layer {background-color: transparent;}
+.elementor-13 .elementor-element.elementor-element-b996fa8 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;margin-top: 2%;margin-bottom: 0%;padding: 0%;z-index: 10;}
+.elementor-13 .elementor-element.elementor-element-b996fa8>.elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-13 .elementor-element.elementor-element-60c37d6>.elementor-widget-container {margin: 0;}
+.elementor-13 .elementor-element.elementor-element-d3b2287 {text-align: right;}
+.elementor-13 .elementor-element.elementor-element-d3b2287 .elementor-social-icon {font-size: 30px;}
+.elementor-13 .elementor-element.elementor-element-c2d82e3 .elementor-button {background-color: #f97a0a;}
+@media (min-width:768px) {.elementor-13 .elementor-element.elementor-element-fdcabd5 {width: 15.97%;}
+	.elementor-13 .elementor-element.elementor-element-351e4ae {width: 17.961%;}
+	.elementor-13 .elementor-element.elementor-element-8ee1528 {width: 41.069%;}}
+@media (max-width:1024px) {.elementor-13 .elementor-element.elementor-element-b996fa8 {margin-top: 0%;margin-bottom: 0%;padding: 0;}}
