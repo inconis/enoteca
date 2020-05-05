@@ -62,7 +62,7 @@ button:focus, .menu-toggle:hover, button:hover, .ast-button:hover, .button:hover
 @media (max-width:768px) {html {font-size: 85.5%;}}
 @media (max-width:544px) {html {font-size: 85.5%;}}
 @media (min-width:769px) {.ast-container {max-width: 1240px;}}
-@font-face {font-family: astra;src: url("http://OFFLINEZIP.wpshowp-content/themes/astra/assets/fonts/astra.woff") format("woff"),url("http://OFFLINEZIP.wpshowp-content/themes/astra/assets/fonts/astra.ttf") format("truetype"),url("http://OFFLINEZIP.wpshowp-content/themes/astra/assets/fonts/astra.svg#astra") format("svg");font-weight: 400;font-style: normal;font-display: fallback;}
+@font-face {font-family: astra;src: url("https://inconis.github.io/enoteca/wp-content/themes/astra/assets/fonts/astra.woff") format("woff"),url("https://inconis.github.io/enoteca/wp-content/themes/astra/assets/fonts/astra.ttf") format("truetype"),url("https://inconis.github.io/enoteca/wp-content/themes/astra/assets/fonts/astra.svg#astra") format("svg");font-weight: 400;font-style: normal;font-display: fallback;}
 @media (max-width:921px) {.main-header-bar .main-header-bar-navigation {display: none;}}
 .ast-desktop .main-header-menu.submenu-with-border .sub-menu, .ast-desktop .main-header-menu.submenu-with-border .children, .ast-desktop .main-header-menu.submenu-with-border .astra-full-megamenu-wrapper {border-color: #0274be;}
 .ast-desktop .main-header-menu.submenu-with-border .sub-menu, .ast-desktop .main-header-menu.submenu-with-border .children {border-top-width: 2px;border-right-width: 0;border-left-width: 0;border-bottom-width: 0;border-style: solid;}
