@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="it-IT"><head><meta charset="UTF-8"><title>Enoteca Giardino di Vino – Un nuovo sito targato WordPress</title><link rel="preload" as="font" href="/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2" data-wpacu-preload-font="1" crossorigin><link rel="preload" as="font" href="/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2" data-wpacu-preload-font="1" crossorigin><link rel="dns-prefetch" href="https://PLACEHOLDER.wpsho"><link rel="dns-prefetch" href="//maps.googleapis.com"><link rel="dns-prefetch" href="//maps.gstatic.com"><link rel="dns-prefetch" href="//ajax.googleapis.com"><link rel="dns-prefetch" href="//apis.google.com"><link rel="dns-prefetch" href="//google-analytics.com"><link rel="dns-prefetch" href="//www.google-analytics.com"><link rel="dns-prefetch" href="//ssl.google-analytics.com"><link rel="dns-prefetch" href="//cdnjs.cloudflare.com"><link rel="dns-prefetch" href="//connect.facebook.net"><style type="text/css" data-wpacu-inline-css-file="1">
+/*! /wp-content/plugins/mailbluster4wp/public/css/mailbluster4wp-public.css */.mb4wp-row{display:flex;flex-wrap:wrap}.mb4wp-form-group{margin-bottom:16px}.mb4wp-label{font-size:16px;color:#657786;font-family:inherit;font-weight:600;margin-bottom:8px;display:flex}input[type="text"].mb4wp-form-control,input[type="email"].mb4wp-form-control,.mb4wp-form-control{display:block;width:100%;font-weight:400;color:#495057;padding:14px;background-clip:padding-box;border:1px solid #ced4da;font-size:14px;line-height:1.5;box-shadow:none;border-radius:3px;background-color:#fff;transition:all .2s ease-in-out}input[type="text"].mb4wp-form-control:focus,input[type="email"].mb4wp-form-control:focus{outline:unset}.mb4wp-form-control:not(select){height:auto}input.mb4wp-subscribe{padding:10px 30px!important}.alert-success{color:#155724;background-color:#d4edda;border-color:#c3e6cb}.alert{position:relative;padding:25px 50px;margin-bottom:16px;border:1px solid transparent;border-radius:4px}.alert-warning{color:#856404;background-color:#fff3cd;border-color:#ffeeba}.alert-danger{color:#721c24;background-color:#f8d7da;border-color:#f5c6cb}
+</style><link rel="stylesheet" id="eael-front-end-css" href="https://PLACEHOLDER.wpsho/wp-content/uploads/essential-addons-elementor/2c64c1058af09ac470f620a29a1e5918.min.css" type="text/css" media="all"><style type="text/css" data-wpacu-inline-css-file="1">
+body.elementor-kit-12{background-color:#020101;color:rgba(255, 255, 255, 0);}body.elementor-kit-12 h1{color:rgba(255, 255, 255, 0);}
+</style><style type="text/css" data-wpacu-inline-css-file="1">
+.elementor-13 .elementor-element.elementor-element-b996fa8:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-b996fa8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:rgba(255, 255, 255, 0);}.elementor-13 .elementor-element.elementor-element-b996fa8{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:2%;margin-bottom:0%;padding:0% 0% 0% 0%;z-index:10;}.elementor-13 .elementor-element.elementor-element-b996fa8 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-60c37d6 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-d3b2287{text-align:right;}.elementor-13 .elementor-element.elementor-element-d3b2287 .elementor-social-icon{font-size:30px;}.elementor-13 .elementor-element.elementor-element-c2d82e3 .elementor-button{background-color:#F97A0A;}@media(min-width:768px){.elementor-13 .elementor-element.elementor-element-fdcabd5{width:15.97%;}.elementor-13 .elementor-element.elementor-element-351e4ae{width:17.961%;}.elementor-13 .elementor-element.elementor-element-8ee1528{width:41.069%;}}@media(max-width:1024px){.elementor-13 .elementor-element.elementor-element-b996fa8{margin-top:0%;margin-bottom:0%;padding:0px 0px 0px 0px;}}
+</style><style type="text/css" data-wpacu-inline-css-file="1">
+.elementor-365 .elementor-element.elementor-element-62919eb{--divider-border-style:solid;--divider-border-color:#FFFFFF;--divider-border-width:2px;}.elementor-365 .elementor-element.elementor-element-62919eb .elementor-divider-separator{width:100%;}.elementor-365 .elementor-element.elementor-element-62919eb .elementor-divider{padding-top:15px;padding-bottom:15px;}.elementor-365 .elementor-element.elementor-element-4d5a490 .elementor-text-editor{text-align:left;}@media(min-width:768px){.elementor-365 .elementor-element.elementor-element-7a0c31b{width:13.421%;}.elementor-365 .elementor-element.elementor-element-d0ed720{width:39.196%;}.elementor-365 .elementor-element.elementor-element-cf1c6ac{width:47.222%;}}
+</style><style type="text/css" data-wpacu-inline-css-file="1">
+/*!
+ * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:auto;src:url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.eot);src:url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.woff2) format("woff2"),url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.woff) format("woff"),url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.ttf) format("truetype"),url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa,.fas{font-family:"Font Awesome 5 Free";font-weight:900}
+</style><style type="text/css" data-wpacu-inline-css-file="1">
+/*!
+ * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:normal;font-display:auto;src:url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot);src:url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff2) format("woff2"),url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff) format("woff"),url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.ttf) format("truetype"),url(/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands"}
+</style><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="https://PLACEHOLDER.wpsho/wp-content/uploads/2020/04/cropped-img1-32x32.png" sizes="32x32"><link rel="icon" href="https://PLACEHOLDER.wpsho/wp-content/uploads/2020/04/cropped-img1-192x192.png" sizes="192x192"><link rel="apple-touch-icon" href="https://PLACEHOLDER.wpsho/wp-content/uploads/2020/04/cropped-img1-180x180.png"><meta name="msapplication-TileImage" content="http://OFFLINEZIP.wpsho/wp-content/uploads/2020/04/cropped-img1-270x270.png"><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player,[data-lazy-src]{display:none!important}</style></noscript></head><body class="home page-template page-template-elementor_header_footer page page-id-27 wp-custom-logo wp-embed-responsive multiple-domain-enoteca-torino-it cookies-not-set no-sidebar nav-below-header fluid-header separate-containers active-footer-widgets-3 header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-12 elementor-page elementor-page-27 full-width-content" itemtype="https://schema.org/WebPage" itemscope>
+<script type="text/javascript">
+/* <![CDATA[ */
+var uael_script = {"post_loader":"http:\/\/OFFLINEZIP.wpshowp-content\/plugins\/ultimate-elementor\/assets\/img\/post-loader.gif","url":"http:\/\/OFFLINEZIP.wpshowp-admin\/admin-ajax.php","search_str":"Search:","table_not_found_str":"No matching records found","table_length_string":"Show _MENU_ Entries","uael_particles_url":"http:\/\/OFFLINEZIP.wpshowp-content\/plugins\/ultimate-elementor\/assets\/min-js\/uael-particles.min.js","particles_url":"http:\/\/OFFLINEZIP.wpshowp-content\/plugins\/ultimate-elementor\/assets\/lib\/particles\/particles.min.js"};
+var uael = {"ajax_url":"http:\/\/OFFLINEZIP.wpshowp-admin\/admin-ajax.php"};
+var uaelRegistration = {"invalid_mail":"Enter valid Email!","pass_unmatch":"The specified password do not match!","required":"This Field is required!","form_nonce":"af6b1c30af","incorrect_password":"Error: The Password you have entered is incorrect.","invalid_username":"Unknown username. Check again or try your email address.","invalid_email":"Unknown email address. Check again or try your username."};
+/* ]]> */
+</script><script type="text/javascript" src="https://PLACEHOLDER.wpsho/wp-includes/js/jquery/jquery.js"></script><a class="screen-reader-text skip-link" href="#content" title="Vai al contenuto">Vai al contenuto</a>		<header data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" data-elementor-settings="[]"><div class="elementor-inner">
+			<div class="elementor-section-wrap">
+						<header class="elementor-element elementor-element-b996fa8 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b996fa8" data-element_type="section" data-settings='{"background_background":"classic"}'><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-fdcabd5 elementor-column elementor-col-25 elementor-top-column" data-id="fdcabd5" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-351e4ae elementor-column elementor-col-25 elementor-top-column" data-id="351e4ae" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-60c37d6 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="60c37d6" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+											<a href="http://OFFLINEZIP.wpsho">
+							<img width="300" height="153" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20153'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="Logo Enoteca Giardino Di Vino" data-lazy-srcset="//PLACEHOLDER.wpsho/wp-content/uploads/2020/04/output-onlinepngtools-1-300x153.png 300w, //PLACEHOLDER.wpsho/wp-content/uploads/2020/04/output-onlinepngtools-1.png 472w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="//PLACEHOLDER.wpsho/wp-content/uploads/2020/04/output-onlinepngtools-1-300x153.png"><noscript><img width="300" height="153" src="https://PLACEHOLDER.wpsho/wp-content/uploads/2020/04/output-onlinepngtools-1-300x153.png" class="attachment-medium size-medium" alt="Logo Enoteca Giardino Di Vino" srcset="https://PLACEHOLDER.wpsho/wp-content/uploads/2020/04/output-onlinepngtools-1-300x153.png 300w,https://PLACEHOLDER.wpsho/wp-content/uploads/2020/04/output-onlinepngtools-1.png 472w" sizes="(max-width: 300px) 100vw, 300px"></noscript>								</a>
+											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-8ee1528 elementor-column elementor-col-25 elementor-top-column" data-id="8ee1528" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d3b2287 elementor-hidden-phone elementor-shape-rounded elementor-widget elementor-widget-social-icons" data-id="d3b2287" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper">
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-de19c85" href="https://www.facebook.com/giardinodivino" target="_blank">
+					<span class="elementor-screen-only">Facebook</span>
+					<i class="fab fa-facebook"></i>				</a>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-2f816d2 elementor-column elementor-col-25 elementor-top-column" data-id="2f816d2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c2d82e3 elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="c2d82e3" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#prenota" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Ricevi a domicilio</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</header></div>
+		</div>
+		</header><div id="page" class="hfeed site grid-container container grid-parent">
+				<div id="content" class="site-content">
+					<div data-elementor-type="wp-page" data-elementor-id="27" class="elementor elementor-27" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-400ee65 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="400ee65" data-element_type="section" data-settings='{"background_background":"classic"}'><div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-c0d4330 elementor-column elementor-col-100 elementor-top-column" data-id="c0d4330" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-760a508 elementor-widget elementor-widget-spacer" data-id="760a508" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><div class="elementor-element elementor-element-ff58459 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ff58459" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-24ae65a elementor-column elementor-col-100 elementor-top-column" data-id="24ae65a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-3c27bcf elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="3c27bcf" data-element_type="section" data-settings='{"background_background":"classic"}'><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-80ea600 elementor-column elementor-col-33 elementor-inner-column" data-id="80ea600" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-55d0a4a elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="55d0a4a" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i aria-hidden="true" class="fas fa-wine-glass"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>Ampia scelta</span>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-cd61385 elementor-column elementor-col-33 elementor-inner-column" data-id="cd61385" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a3413da elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="a3413da" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i aria-hidden="true" class="fas fa-user-graduate"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>Sommelier 
+</span>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-684ef50 elementor-column elementor-col-33 elementor-inner-column" data-id="684ef50" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-76d3ac0 elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="76d3ac0" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i aria-hidden="true" class="fas fa-truck"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>Spedizioni a Torino</span>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section></div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</div>
+				<section class="elementor-element elementor-element-cb75f86 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="cb75f86" data-element_type="section" id="chiSiamo"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-ec22f87 elementor-column elementor-col-100 elementor-top-column" data-id="ec22f87" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-39cc0a7 elementor-widget elementor-widget-alert" data-id="39cc0a7" data-element_type="widget" data-widget_type="alert.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-alert elementor-alert-danger" role="alert">
+			<span class="elementor-alert-title">Emergenza COVID - Siamo APERTI</span>
+							<span class="elementor-alert-description">Il negozio rimane aperto secondo il normale orario anche a seguito del DPCM</span>
+										<button type="button" class="elementor-alert-dismiss">
+					<span aria-hidden="true">×</span>
+					<span class="elementor-screen-only">Rimuovi avviso</span>
+				</button>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ba2894a elementor-widget elementor-widget-heading" data-id="ba2894a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">CHI SIAMO</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c4ed81b elementor-widget-divider--separator-type-pattern elementor-widget elementor-widget-divider" data-id="c4ed81b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider" style="--divider-pattern-url: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 24 24' fill='%23FFFFFF' stroke='none'%3E%3Cpath d='M12.7,2.3c-0.4-0.4-1.1-0.4-1.5,0l-8,9.1c-0.3,0.4-0.3,0.9,0,1.2l8,9.1c0.4,0.4,1.1,0.4,1.5,0l8-9.1c0.3-0.4,0.3-0.9,0-1.2L12.7,2.3z'/%3E%3C/svg%3E");">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-72bb973 elementor-widget elementor-widget-text-editor" data-id="72bb973" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong>Benvenuti</strong>. La nostra Enoteca nasce nel 2004 dall’entusiasmo e la passione per il mondo affascinante del “vino”. Siamo una delle poche enoteche rimaste a Torino a vendere vino sfuso D.O.C. certificato di qualità, proveniente da piccoli produttori piemontesi. Da noi potrete trovare un’ampia scelta di vini nazionali ed esteri, birre artigianali, grappe, liquori e distillati di pregio, oltre un vasto assortimento di prodotti tipici di pasticceria regionale. Veniteci a trovare, vi potremo consigliare il vino migliore per una cena tra amici, o il regalo giusto per un evento speciale in confezione esclusiva.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-8cd312f elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="8cd312f" data-element_type="section" data-settings='{"background_background":"classic"}'><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-bb289bc elementor-column elementor-col-100 elementor-top-column" data-id="bb289bc" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3a7f625 elementor-widget elementor-widget-spacer" data-id="3a7f625" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><script>(function($){"use strict";var target=$('.elementor-element-8cd312f');var EaelParallaxElement={init:function(){elementorFrontend.hooks.addAction('frontend/element_ready/global',EaelParallaxElement.initWidget)},responsiveParallax:function(){var android=0,ios=0;switch(!0||1){case android&&ios:return/iPad|iPhone|iPod|Android/;break;case android&&!ios:return/Android/;break;case!android&&ios:return/iPad|iPhone|iPod/;break;case(!android&&!ios):return null}},initWidget:function($scope){target.jarallax({type:'opacity',speed:1.2,keepImg:!0,disableParallax:EaelParallaxElement.responsiveParallax(),})}};$(window).on('elementor/frontend/init',EaelParallaxElement.init)}(jQuery))</script><section class="elementor-element elementor-element-6048744 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6048744" data-element_type="section" id="iNostriProdotti"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-9e791a5 elementor-column elementor-col-50 elementor-top-column" data-id="9e791a5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3a0cd35 elementor-headline--style-highlight elementor-widget elementor-widget-animated-headline" data-id="3a0cd35" data-element_type="widget" data-settings='{"marker":"underline","highlighted_text":"prodotti","headline_style":"highlight"}' data-widget_type="animated-headline.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-headline">
+							<span class="elementor-headline-plain-text elementor-headline-text-wrapper">I nostri </span>
+						<span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper"></span>
+					</h1>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<section class="elementor-element elementor-element-3aea038 elementor-column elementor-col-50 elementor-top-column" data-id="3aea038" data-element_type="column"><div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-52f8b3e elementor-widget elementor-widget-accordion" data-id="52f8b3e" data-element_type="widget" data-widget_type="accordion.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-accordion" role="tablist">
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-8701" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-8701">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">VINO SFUSO</a>
+					</div>
+					<div id="elementor-tab-content-8701" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-8701">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-8702" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-8702">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">VINO IN BOTTIGLIA</a>
+					</div>
+					<div id="elementor-tab-content-8702" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-8702">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-8703" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-8703">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">BIRRE ARTIGIANALI</a>
+					</div>
+					<div id="elementor-tab-content-8703" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-8703">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-8704" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-8704">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">LIQUORI E DISTILLATI</a>
+					</div>
+					<div id="elementor-tab-content-8704" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-8704">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-8705" class="elementor-tab-title" data-tab="5" role="tab" aria-controls="elementor-tab-content-8705">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">DOLCE e SALATO</a>
+					</div>
+					<div id="elementor-tab-content-8705" class="elementor-tab-content elementor-clearfix" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-8705">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-8706" class="elementor-tab-title" data-tab="6" role="tab" aria-controls="elementor-tab-content-8706">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">CONFEZIONI REGALO</a>
+					</div>
+					<div id="elementor-tab-content-8706" class="elementor-tab-content elementor-clearfix" data-tab="6" role="tabpanel" aria-labelledby="elementor-tab-title-8706">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</section></div>
+			</div>
+		</section><section class="elementor-element elementor-element-cc7a902 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="cc7a902" data-element_type="section" data-settings='{"background_background":"classic"}'><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-c938a93 elementor-column elementor-col-100 elementor-top-column" data-id="c938a93" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a47c470 elementor-widget elementor-widget-spacer" data-id="a47c470" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><script>(function($){"use strict";var target=$('.elementor-element-cc7a902');var EaelParallaxElement={init:function(){elementorFrontend.hooks.addAction('frontend/element_ready/global',EaelParallaxElement.initWidget)},responsiveParallax:function(){var android=0,ios=0;switch(!0||1){case android&&ios:return/iPad|iPhone|iPod|Android/;break;case android&&!ios:return/Android/;break;case!android&&ios:return/iPad|iPhone|iPod/;break;case(!android&&!ios):return null}},initWidget:function($scope){target.jarallax({type:'scroll',speed:0.5,keepImg:!0,disableParallax:EaelParallaxElement.responsiveParallax(),})}};$(window).on('elementor/frontend/init',EaelParallaxElement.init)}(jQuery))</script><section class="elementor-element elementor-element-dce0867 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="dce0867" data-element_type="section" id="prenota"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a5bfbf8 elementor-column elementor-col-100 elementor-top-column" data-id="a5bfbf8" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-215c605 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="215c605" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-abf05ce elementor-column elementor-col-50 elementor-inner-column" data-id="abf05ce" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ae68a62 elementor-headline--style-highlight elementor-widget elementor-widget-animated-headline" data-id="ae68a62" data-element_type="widget" data-settings='{"highlighted_text":"esperienza","headline_style":"highlight","marker":"circle"}' data-widget_type="animated-headline.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-headline">
+							<span class="elementor-headline-plain-text elementor-headline-text-wrapper">Affidati alla nostra </span>
+						<span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper"></span>
+					</h1>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-13b6193 elementor-column elementor-col-50 elementor-inner-column" data-id="13b6193" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-f2b91c9 elementor-headline--style-highlight elementor-widget elementor-widget-animated-headline" data-id="f2b91c9" data-element_type="widget" data-settings='{"marker":"underline","highlighted_text":"domicilio","headline_style":"highlight"}' data-widget_type="animated-headline.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-headline">
+							<span class="elementor-headline-plain-text elementor-headline-text-wrapper">e ricevi a </span>
+						<span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper"></span>
+					</h1>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-24ebb75 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="24ebb75" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-39a0ed6 elementor-column elementor-col-50 elementor-inner-column" data-id="39a0ed6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-474e9c7 elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="474e9c7" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-cta">
+							<div class="elementor-cta__content">
+				
+				
+									<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
+						Riteniamo che il valore di un buon consiglio per scegliere la giusta bottiglia di vino da gustare a casa o in compagnia non lo si possa ricevere su un sito web.
+Per questo abbiamo deciso di consigliarvi nella scelta online o al telefono e spedire presso l'indirizzo indicato nella città di Torino ciò che verrà concordato.					</div>
+				
+									<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
+					<a class="elementor-cta__button elementor-button elementor-size-sm" href="https://m.me/giardinodivino" target="_blank">
+						Clicca per chattare					</a>
+					</div>
+							</div>
+						</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-2cde966 elementor-column elementor-col-50 elementor-inner-column" data-id="2cde966" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-50af901 elementor-widget elementor-widget-text-editor" data-id="50af901" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Indicaci il numero di telefono e a che ora preferisci essere ricontattato per scegliere insieme il prodotto più adatto</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-da58a28 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="da58a28" data-element_type="widget" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-form" method="post" name="Contatti">
+			<input type="hidden" name="post_id" value="27"><input type="hidden" name="form_id" value="da58a28"><input type="hidden" name="queried_id" value="27"><div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-message elementor-col-50">
+					<label for="form-field-message" class="elementor-field-label elementor-screen-only">Telefono</label><input size="1" type="text" name="form_fields[message]" id="form-field-message" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Telefono"></div>
+								<div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-field_b470ab7 elementor-col-50 elementor-field-required">
+					<label for="form-field-field_b470ab7" class="elementor-field-label elementor-screen-only">Orario</label>		<div class="elementor-field elementor-select-wrapper ">
+			<select name="form_fields[field_b470ab7]" id="form-field-field_b470ab7" class="elementor-field-textual elementor-size-md" required="required" aria-required="true"><option value="Il prima possibile">Il prima possibile</option><option value="09:00">09:00</option><option value="09:15">09:15</option><option value="09:30">09:30</option><option value="09:45">09:45</option><option value="10:00">10:00</option><option value="10:15">10:15</option><option value="10:30">10:30</option><option value="10:45">10:45</option><option value="11:00">11:00</option><option value="11:15">11:15</option><option value="11:30">11:30</option><option value="11:45">11:45</option><option value="12:00">12:00</option><option value="12:15">12:15</option><option value="12:30">12:30</option><option value="12:45">12:45</option><option value="13:00">13:00</option><option value="13:15">13:15</option><option value="15:15">15:15</option><option value="15:30">15:30</option><option value="15:45">15:45</option><option value="16:00">16:00</option><option value="16:15">16:15</option><option value="16:30">16:30</option><option value="16:45">16:45</option><option value="17:00">17:00</option><option value="17:15">17:15</option><option value="17:30">17:30</option><option value="17:45">17:45</option><option value="18:00">18:00</option><option value="18:15">18:15</option><option value="18:30">18:30</option><option value="18:45">18:45</option><option value="19:00">19:00</option><option value="19:15">19:15</option><option value="19:30">19:30</option><option value="19:45">19:45</option><option value=""></option></select></div>
+						</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100">
+					<button type="submit" class="elementor-button elementor-size-sm">
+						<span>
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Chiamami !</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-e1a88c4 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="e1a88c4" data-element_type="section" data-settings='{"background_background":"classic"}'><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-cdf0a98 elementor-column elementor-col-100 elementor-top-column" data-id="cdf0a98" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5748176 elementor-widget elementor-widget-spacer" data-id="5748176" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><script>(function($){"use strict";var target=$('.elementor-element-e1a88c4');var EaelParallaxElement={init:function(){elementorFrontend.hooks.addAction('frontend/element_ready/global',EaelParallaxElement.initWidget)},responsiveParallax:function(){var android=0,ios=0;switch(!0||1){case android&&ios:return/iPad|iPhone|iPod|Android/;break;case android&&!ios:return/Android/;break;case!android&&ios:return/iPad|iPhone|iPod/;break;case(!android&&!ios):return null}},initWidget:function($scope){target.jarallax({type:'scroll',speed:0.5,keepImg:!0,disableParallax:EaelParallaxElement.responsiveParallax(),})}};$(window).on('elementor/frontend/init',EaelParallaxElement.init)}(jQuery))</script><section class="elementor-element elementor-element-2ccb64a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="2ccb64a" data-element_type="section"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7ff2e70 elementor-column elementor-col-100 elementor-top-column" data-id="7ff2e70" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-980b786 elementor-headline--style-highlight elementor-widget elementor-widget-animated-headline" data-id="980b786" data-element_type="widget" data-settings='{"highlighted_text":"articoli","headline_style":"highlight","marker":"circle"}' data-widget_type="animated-headline.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-headline">
+							<span class="elementor-headline-plain-text elementor-headline-text-wrapper">Leggi i miei ultimi</span>
+						<span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper"></span>
+					</h3>
+				</div>
+				</div>
+				<section class="elementor-element elementor-element-863335a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="863335a" data-element_type="section"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-8b4df1e elementor-column elementor-col-50 elementor-inner-column" data-id="8b4df1e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-049dc8e elementor-widget elementor-widget-eael-post-carousel" data-id="049dc8e" data-element_type="widget" data-widget_type="eael-post-carousel.default">
+				<div class="elementor-widget-container">
+			        <div class="swiper-container-wrap eael-logo-carousel-wrap eael-post-grid-container eael-post-carousel-wrap swiper-container-wrap-dots-outside" id="eael-post-grid-049dc8e">
+            <div class="swiper-container eael-post-carousel eael-post-grid swiper-container-049dc8e eael-post-appender-049dc8e show-read-more-button" data-pagination=".swiper-pagination-049dc8e" data-arrow-next=".swiper-button-next-049dc8e" data-arrow-prev=".swiper-button-prev-049dc8e" data-items="1" data-items-tablet="2" data-items-mobile="1" data-margin="10" data-effect="slide" data-speed="400" data-autoplay="2000" data-loop="1" data-dots="1">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><article class="eael-grid-post eael-post-grid-column"><div class="eael-grid-post-holder">
+                        <div class="eael-grid-post-holder-inner"><div class="eael-entry-wrapper">
+		            <header class="eael-entry-header"><h2 class="eael-entry-title"><a class="eael-grid-post-link" href="http://OFFLINEZIP.wpsho/articolo-2/" title="Articolo 2">Articolo 2</a></h2></header><div class="eael-entry-content">
+		                    <div class="eael-grid-post-excerpt">
+		                        <p></p><a href="http://OFFLINEZIP.wpsho/articolo-2/" class="eael-post-elements-readmore-btn">Leggi tutto </a></div>
+                        </div></div></div></div></article></div><div class="swiper-slide"><article class="eael-grid-post eael-post-grid-column"><div class="eael-grid-post-holder">
+                        <div class="eael-grid-post-holder-inner"><div class="eael-entry-wrapper">
+		            <header class="eael-entry-header"><h2 class="eael-entry-title"><a class="eael-grid-post-link" href="http://OFFLINEZIP.wpsho/articolo-1/" title="Articolo 1">Articolo 1</a></h2></header><div class="eael-entry-content">
+		                    <div class="eael-grid-post-excerpt">
+		                        <p></p><a href="http://OFFLINEZIP.wpsho/articolo-1/" class="eael-post-elements-readmore-btn">Leggi tutto </a></div>
+                        </div></div></div></div></article></div><div class="swiper-slide"><article class="eael-grid-post eael-post-grid-column"><div class="eael-grid-post-holder">
+                        <div class="eael-grid-post-holder-inner"><div class="eael-entry-wrapper">
+		            <header class="eael-entry-header"><h2 class="eael-entry-title"><a class="eael-grid-post-link" href="http://OFFLINEZIP.wpsho/ciao-mondo/" title="Ciao mondo!">Ciao mondo!</a></h2></header><div class="eael-entry-content">
+		                    <div class="eael-grid-post-excerpt">
+		                        <p>Benvenuto in WordPress. Questo è il tuo primo articolo. Modificalo...</p><a href="http://OFFLINEZIP.wpsho/ciao-mondo/" class="eael-post-elements-readmore-btn">Leggi tutto </a></div>
+                        </div></div></div></div></article></div>                </div>
+            </div>
+            <div class="clearfix"></div>
+                    
+            <div class="swiper-pagination swiper-pagination-049dc8e"></div>
+        		</div>
+        		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-fa773e0 elementor-column elementor-col-50 elementor-inner-column" data-id="fa773e0" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a8d1a22 elementor-widget elementor-widget-text-editor" data-id="a8d1a22" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Inserisci la tua mail per essere aggiornato</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-69a66b9 elementor-widget elementor-widget-wp-widget-mb4wp_widget" data-id="69a66b9" data-element_type="widget" data-widget_type="wp-widget-mb4wp_widget.default">
+				<div class="elementor-widget-container">
+			<h5></h5>		<div class="mb4wp-form-custom-class-container ">
+			<form id="mb4wp-s-form_488" class="mb4wp-s-form" method="post">
+						<div class="mb4wp-form-group">
+			<label for="mb4wp_sform_email_488" class="mb4wp-label">Email Address*</label>
+			<input type="email" id="mb4wp_sform_email_488" class="mb4wp-form-control" name="mb4wp_sform_488[def][email]" required></div>
+						<div class="mb4wp-form-group">
+					<button type="submit" class="mb4wp-subscribe">Tieniti aggiornato</button>
+                    <input type="hidden" class="mb4wp-form-post-id" name="mb4wp_form_post_id" value="488"></div>
+			</form>
+
+            <div id="mb4wp-form-messages"></div>
+
+            		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section></div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-3867e04 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3867e04" data-element_type="section" data-settings='{"background_background":"classic"}'><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-57e84da elementor-column elementor-col-100 elementor-top-column" data-id="57e84da" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6e36540 elementor-widget elementor-widget-spacer" data-id="6e36540" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><script>(function($){"use strict";var target=$('.elementor-element-3867e04');var EaelParallaxElement={init:function(){elementorFrontend.hooks.addAction('frontend/element_ready/global',EaelParallaxElement.initWidget)},responsiveParallax:function(){var android=0,ios=0;switch(!0||1){case android&&ios:return/iPad|iPhone|iPod|Android/;break;case android&&!ios:return/Android/;break;case!android&&ios:return/iPad|iPhone|iPod/;break;case(!android&&!ios):return null}},initWidget:function($scope){target.jarallax({type:'scroll',speed:0.5,keepImg:!0,disableParallax:EaelParallaxElement.responsiveParallax(),})}};$(window).on('elementor/frontend/init',EaelParallaxElement.init)}(jQuery))</script><section class="elementor-element elementor-element-4835c0b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4835c0b" data-element_type="section" id="recensioni"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-65ccf2f elementor-column elementor-col-100 elementor-top-column" data-id="65ccf2f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-529990d elementor-widget elementor-widget-heading" data-id="529990d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Cosa ne pensano di noi...</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e24895e uael-reviews-equal-height-yes uael-social-reviews-google uael-review-image-enable-yes uael-reviews-carousel-arrow-outside elementor-widget elementor-widget-uael-business-reviews" data-id="e24895e" data-element_type="widget" data-widget_type="uael-business-reviews.default">
+				<div class="elementor-widget-container">
+			
+		<div class="uael-business-reviews-widget">
+			<div class="uael-reviews-widget-wrapper uael-review-image-left uael-reviews-layout-carousel" data-review-skin="default" data-layout="carousel" data-equal-height="yes" data-reviews_slider='{"slidesToShow":3,"slidesToScroll":1,"autoplaySpeed":5000,"autoplay":true,"infinite":true,"pauseOnHover":true,"speed":500,"arrows":true,"dots":true,"rtl":false,"responsive":[{"breakpoint":1024,"settings":{"slidesToShow":2,"slidesToScroll":1}},{"breakpoint":767,"settings":{"slidesToShow":1,"slidesToScroll":1}}]}'>
+				<div class="uael-review-wrap">
+	<div class="uael-review uael-review-type-google">
+				<div class="uael-review-inner-wrap">
+					<div class="uael-review-header">
+							<div data-bg="url(https://lh4.ggpht.com/-qJeDg9JkWsQ/AAAAAAAAAAI/AAAAAAAAAAA/afZSbVKxjk8/s128-c0x00000000-cc-rp-mo/photo.jpg)" class="uael-review-image rocket-lazyload" style=""></div>
+						<div class="uael-review-details">
+											<span class="uael-reviewer-name">Agostino Ladetto</span>
+													<span class="elementor-star-rating__wrapper">
+						<span class="uael-star-rating"><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i></span>
+					</span>
+													<span class="uael-review-time">a year ago</span>
+											</div>
+							<div class="uael-review-icon-wrap">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g><path id="XMLID_5_" fill="#FFFFFF" d="M34.963,3.686C23.018,7.777,12.846,16.712,7.206,28.002
+		c-1.963,3.891-3.397,8.045-4.258,12.315C0.78,50.961,2.289,62.307,7.2,72.002c3.19,6.328,7.762,11.951,13.311,16.361
+		c5.236,4.175,11.336,7.256,17.806,8.979c8.163,2.188,16.854,2.14,25.068,0.268c7.426-1.709,14.452-5.256,20.061-10.436
+		c5.929-5.449,10.158-12.63,12.399-20.342c2.441-8.415,2.779-17.397,1.249-26.011c-15.373-0.009-30.744-0.004-46.113-0.002
+		c0.003,6.375-0.007,12.749,0.006,19.122c8.9-0.003,17.802-0.006,26.703,0c-1.034,6.107-4.665,11.696-9.813,15.135
+		c-3.236,2.176-6.954,3.587-10.787,4.26c-3.861,0.661-7.846,0.746-11.696-0.035c-3.914-0.781-7.649-2.412-10.909-4.711
+		c-5.212-3.662-9.189-9.018-11.23-15.048c-2.088-6.132-2.103-12.954,0.009-19.08c1.466-4.316,3.907-8.305,7.112-11.551
+		c3.955-4.048,9.095-6.941,14.633-8.128c4.742-1.013,9.745-0.819,14.389,0.586c3.947,1.198,7.584,3.359,10.563,6.206
+		c3.012-2.996,6.011-6.008,9.014-9.008c1.579-1.615,3.236-3.161,4.763-4.819C79.172,9.52,73.819,6.123,67.97,3.976
+		C57.438,0.1,45.564,0.018,34.963,3.686z"></path><g><path id="XMLID_4_" fill="#EA4335" d="M34.963,3.686C45.564,0.018,57.438,0.1,67.97,3.976c5.85,2.147,11.202,5.544,15.769,9.771
+			c-1.526,1.659-3.184,3.205-4.763,4.819c-3.003,3-6.002,6.012-9.014,9.008c-2.979-2.846-6.616-5.008-10.563-6.206
+			c-4.645-1.405-9.647-1.599-14.389-0.586c-5.539,1.187-10.679,4.08-14.633,8.128c-3.206,3.246-5.646,7.235-7.112,11.551
+			c-5.353-4.152-10.703-8.307-16.058-12.458C12.846,16.712,23.018,7.777,34.963,3.686z"></path></g><g><path id="XMLID_3_" fill="#FBBC05" d="M2.947,40.317c0.861-4.27,2.295-8.424,4.258-12.315c5.355,4.151,10.706,8.306,16.058,12.458
+			c-2.112,6.126-2.097,12.948-0.009,19.08C17.903,63.695,12.557,67.856,7.2,72.002C2.289,62.307,0.78,50.961,2.947,40.317z"></path></g><g><path id="XMLID_2_" fill="#4285F4" d="M50.981,40.818c15.369-0.002,30.74-0.006,46.113,0.002
+			c1.53,8.614,1.192,17.596-1.249,26.011c-2.241,7.712-6.471,14.893-12.399,20.342c-5.18-4.039-10.386-8.057-15.568-12.099
+			c5.147-3.438,8.778-9.027,9.813-15.135c-8.9-0.006-17.803-0.003-26.703,0C50.974,53.567,50.984,47.194,50.981,40.818z"></path></g><g><path id="XMLID_1_" fill="#34A853" d="M7.2,72.002c5.356-4.146,10.703-8.307,16.055-12.461c2.041,6.03,6.018,11.386,11.23,15.048
+			c3.26,2.299,6.995,3.93,10.909,4.711c3.851,0.781,7.835,0.696,11.696,0.035c3.833-0.673,7.551-2.084,10.787-4.26
+			c5.183,4.042,10.389,8.06,15.568,12.099c-5.608,5.18-12.635,8.727-20.061,10.436c-8.215,1.872-16.906,1.921-25.068-0.268
+			c-6.469-1.723-12.57-4.804-17.806-8.979C14.962,83.953,10.39,78.33,7.2,72.002z"></path></g></g></svg></div>
+					</div>
+													<div class="uael-review-content">Ottimo negozio. Prezzi onesti, buona qualità e tanta scelta. Persone gentilissime. Consigliato.</div>
+					</div>
+	</div>
+</div>
+<div class="uael-review-wrap">
+	<div class="uael-review uael-review-type-google">
+				<div class="uael-review-inner-wrap">
+					<div class="uael-review-header">
+							<div data-bg="url(https://lh4.ggpht.com/-gOgNDy7L0rc/AAAAAAAAAAI/AAAAAAAAAAA/VTliRmmLTtw/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg)" class="uael-review-image rocket-lazyload" style=""></div>
+						<div class="uael-review-details">
+											<span class="uael-reviewer-name">Laura Barone</span>
+													<span class="elementor-star-rating__wrapper">
+						<span class="uael-star-rating"><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i></span>
+					</span>
+													<span class="uael-review-time">a month ago</span>
+											</div>
+							<div class="uael-review-icon-wrap">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g><path id="XMLID_5_" fill="#FFFFFF" d="M34.963,3.686C23.018,7.777,12.846,16.712,7.206,28.002
+		c-1.963,3.891-3.397,8.045-4.258,12.315C0.78,50.961,2.289,62.307,7.2,72.002c3.19,6.328,7.762,11.951,13.311,16.361
+		c5.236,4.175,11.336,7.256,17.806,8.979c8.163,2.188,16.854,2.14,25.068,0.268c7.426-1.709,14.452-5.256,20.061-10.436
+		c5.929-5.449,10.158-12.63,12.399-20.342c2.441-8.415,2.779-17.397,1.249-26.011c-15.373-0.009-30.744-0.004-46.113-0.002
+		c0.003,6.375-0.007,12.749,0.006,19.122c8.9-0.003,17.802-0.006,26.703,0c-1.034,6.107-4.665,11.696-9.813,15.135
+		c-3.236,2.176-6.954,3.587-10.787,4.26c-3.861,0.661-7.846,0.746-11.696-0.035c-3.914-0.781-7.649-2.412-10.909-4.711
+		c-5.212-3.662-9.189-9.018-11.23-15.048c-2.088-6.132-2.103-12.954,0.009-19.08c1.466-4.316,3.907-8.305,7.112-11.551
+		c3.955-4.048,9.095-6.941,14.633-8.128c4.742-1.013,9.745-0.819,14.389,0.586c3.947,1.198,7.584,3.359,10.563,6.206
+		c3.012-2.996,6.011-6.008,9.014-9.008c1.579-1.615,3.236-3.161,4.763-4.819C79.172,9.52,73.819,6.123,67.97,3.976
+		C57.438,0.1,45.564,0.018,34.963,3.686z"></path><g><path id="XMLID_4_" fill="#EA4335" d="M34.963,3.686C45.564,0.018,57.438,0.1,67.97,3.976c5.85,2.147,11.202,5.544,15.769,9.771
+			c-1.526,1.659-3.184,3.205-4.763,4.819c-3.003,3-6.002,6.012-9.014,9.008c-2.979-2.846-6.616-5.008-10.563-6.206
+			c-4.645-1.405-9.647-1.599-14.389-0.586c-5.539,1.187-10.679,4.08-14.633,8.128c-3.206,3.246-5.646,7.235-7.112,11.551
+			c-5.353-4.152-10.703-8.307-16.058-12.458C12.846,16.712,23.018,7.777,34.963,3.686z"></path></g><g><path id="XMLID_3_" fill="#FBBC05" d="M2.947,40.317c0.861-4.27,2.295-8.424,4.258-12.315c5.355,4.151,10.706,8.306,16.058,12.458
+			c-2.112,6.126-2.097,12.948-0.009,19.08C17.903,63.695,12.557,67.856,7.2,72.002C2.289,62.307,0.78,50.961,2.947,40.317z"></path></g><g><path id="XMLID_2_" fill="#4285F4" d="M50.981,40.818c15.369-0.002,30.74-0.006,46.113,0.002
+			c1.53,8.614,1.192,17.596-1.249,26.011c-2.241,7.712-6.471,14.893-12.399,20.342c-5.18-4.039-10.386-8.057-15.568-12.099
+			c5.147-3.438,8.778-9.027,9.813-15.135c-8.9-0.006-17.803-0.003-26.703,0C50.974,53.567,50.984,47.194,50.981,40.818z"></path></g><g><path id="XMLID_1_" fill="#34A853" d="M7.2,72.002c5.356-4.146,10.703-8.307,16.055-12.461c2.041,6.03,6.018,11.386,11.23,15.048
+			c3.26,2.299,6.995,3.93,10.909,4.711c3.851,0.781,7.835,0.696,11.696,0.035c3.833-0.673,7.551-2.084,10.787-4.26
+			c5.183,4.042,10.389,8.06,15.568,12.099c-5.608,5.18-12.635,8.727-20.061,10.436c-8.215,1.872-16.906,1.921-25.068-0.268
+			c-6.469-1.723-12.57-4.804-17.806-8.979C14.962,83.953,10.39,78.33,7.2,72.002z"></path></g></g></svg></div>
+					</div>
+													<div class="uael-review-content">Vasta scelta, prezzi un po alti.</div>
+					</div>
+	</div>
+</div>
+<div class="uael-review-wrap">
+	<div class="uael-review uael-review-type-google">
+				<div class="uael-review-inner-wrap">
+					<div class="uael-review-header">
+							<div data-bg="url(https://lh4.ggpht.com/-LQhpW37i0hU/AAAAAAAAAAI/AAAAAAAAAAA/BpG0w27jyuE/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg)" class="uael-review-image rocket-lazyload" style=""></div>
+						<div class="uael-review-details">
+											<span class="uael-reviewer-name">Giampiero Marrosu</span>
+													<span class="elementor-star-rating__wrapper">
+						<span class="uael-star-rating"><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i></span>
+					</span>
+													<span class="uael-review-time">a year ago</span>
+											</div>
+							<div class="uael-review-icon-wrap">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g><path id="XMLID_5_" fill="#FFFFFF" d="M34.963,3.686C23.018,7.777,12.846,16.712,7.206,28.002
+		c-1.963,3.891-3.397,8.045-4.258,12.315C0.78,50.961,2.289,62.307,7.2,72.002c3.19,6.328,7.762,11.951,13.311,16.361
+		c5.236,4.175,11.336,7.256,17.806,8.979c8.163,2.188,16.854,2.14,25.068,0.268c7.426-1.709,14.452-5.256,20.061-10.436
+		c5.929-5.449,10.158-12.63,12.399-20.342c2.441-8.415,2.779-17.397,1.249-26.011c-15.373-0.009-30.744-0.004-46.113-0.002
+		c0.003,6.375-0.007,12.749,0.006,19.122c8.9-0.003,17.802-0.006,26.703,0c-1.034,6.107-4.665,11.696-9.813,15.135
+		c-3.236,2.176-6.954,3.587-10.787,4.26c-3.861,0.661-7.846,0.746-11.696-0.035c-3.914-0.781-7.649-2.412-10.909-4.711
+		c-5.212-3.662-9.189-9.018-11.23-15.048c-2.088-6.132-2.103-12.954,0.009-19.08c1.466-4.316,3.907-8.305,7.112-11.551
+		c3.955-4.048,9.095-6.941,14.633-8.128c4.742-1.013,9.745-0.819,14.389,0.586c3.947,1.198,7.584,3.359,10.563,6.206
+		c3.012-2.996,6.011-6.008,9.014-9.008c1.579-1.615,3.236-3.161,4.763-4.819C79.172,9.52,73.819,6.123,67.97,3.976
+		C57.438,0.1,45.564,0.018,34.963,3.686z"></path><g><path id="XMLID_4_" fill="#EA4335" d="M34.963,3.686C45.564,0.018,57.438,0.1,67.97,3.976c5.85,2.147,11.202,5.544,15.769,9.771
+			c-1.526,1.659-3.184,3.205-4.763,4.819c-3.003,3-6.002,6.012-9.014,9.008c-2.979-2.846-6.616-5.008-10.563-6.206
+			c-4.645-1.405-9.647-1.599-14.389-0.586c-5.539,1.187-10.679,4.08-14.633,8.128c-3.206,3.246-5.646,7.235-7.112,11.551
+			c-5.353-4.152-10.703-8.307-16.058-12.458C12.846,16.712,23.018,7.777,34.963,3.686z"></path></g><g><path id="XMLID_3_" fill="#FBBC05" d="M2.947,40.317c0.861-4.27,2.295-8.424,4.258-12.315c5.355,4.151,10.706,8.306,16.058,12.458
+			c-2.112,6.126-2.097,12.948-0.009,19.08C17.903,63.695,12.557,67.856,7.2,72.002C2.289,62.307,0.78,50.961,2.947,40.317z"></path></g><g><path id="XMLID_2_" fill="#4285F4" d="M50.981,40.818c15.369-0.002,30.74-0.006,46.113,0.002
+			c1.53,8.614,1.192,17.596-1.249,26.011c-2.241,7.712-6.471,14.893-12.399,20.342c-5.18-4.039-10.386-8.057-15.568-12.099
+			c5.147-3.438,8.778-9.027,9.813-15.135c-8.9-0.006-17.803-0.003-26.703,0C50.974,53.567,50.984,47.194,50.981,40.818z"></path></g><g><path id="XMLID_1_" fill="#34A853" d="M7.2,72.002c5.356-4.146,10.703-8.307,16.055-12.461c2.041,6.03,6.018,11.386,11.23,15.048
+			c3.26,2.299,6.995,3.93,10.909,4.711c3.851,0.781,7.835,0.696,11.696,0.035c3.833-0.673,7.551-2.084,10.787-4.26
+			c5.183,4.042,10.389,8.06,15.568,12.099c-5.608,5.18-12.635,8.727-20.061,10.436c-8.215,1.872-16.906,1.921-25.068-0.268
+			c-6.469-1.723-12.57-4.804-17.806-8.979C14.962,83.953,10.39,78.33,7.2,72.002z"></path></g></g></svg></div>
+					</div>
+													<div class="uael-review-content">Vini di qualità, cortesia e pazienza sono di casa. Consigliato!</div>
+					</div>
+	</div>
+</div>
+<div class="uael-review-wrap">
+	<div class="uael-review uael-review-type-google">
+				<div class="uael-review-inner-wrap">
+					<div class="uael-review-header">
+							<div data-bg="url(https://lh6.ggpht.com/-8OtHiLTZFQY/AAAAAAAAAAI/AAAAAAAAAAA/k07IoXiV01w/s128-c0x00000000-cc-rp-mo/photo.jpg)" class="uael-review-image rocket-lazyload" style=""></div>
+						<div class="uael-review-details">
+											<span class="uael-reviewer-name">Nidia Rossi</span>
+													<span class="elementor-star-rating__wrapper">
+						<span class="uael-star-rating"><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i></span>
+					</span>
+													<span class="uael-review-time">4 months ago</span>
+											</div>
+							<div class="uael-review-icon-wrap">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g><path id="XMLID_5_" fill="#FFFFFF" d="M34.963,3.686C23.018,7.777,12.846,16.712,7.206,28.002
+		c-1.963,3.891-3.397,8.045-4.258,12.315C0.78,50.961,2.289,62.307,7.2,72.002c3.19,6.328,7.762,11.951,13.311,16.361
+		c5.236,4.175,11.336,7.256,17.806,8.979c8.163,2.188,16.854,2.14,25.068,0.268c7.426-1.709,14.452-5.256,20.061-10.436
+		c5.929-5.449,10.158-12.63,12.399-20.342c2.441-8.415,2.779-17.397,1.249-26.011c-15.373-0.009-30.744-0.004-46.113-0.002
+		c0.003,6.375-0.007,12.749,0.006,19.122c8.9-0.003,17.802-0.006,26.703,0c-1.034,6.107-4.665,11.696-9.813,15.135
+		c-3.236,2.176-6.954,3.587-10.787,4.26c-3.861,0.661-7.846,0.746-11.696-0.035c-3.914-0.781-7.649-2.412-10.909-4.711
+		c-5.212-3.662-9.189-9.018-11.23-15.048c-2.088-6.132-2.103-12.954,0.009-19.08c1.466-4.316,3.907-8.305,7.112-11.551
+		c3.955-4.048,9.095-6.941,14.633-8.128c4.742-1.013,9.745-0.819,14.389,0.586c3.947,1.198,7.584,3.359,10.563,6.206
+		c3.012-2.996,6.011-6.008,9.014-9.008c1.579-1.615,3.236-3.161,4.763-4.819C79.172,9.52,73.819,6.123,67.97,3.976
+		C57.438,0.1,45.564,0.018,34.963,3.686z"></path><g><path id="XMLID_4_" fill="#EA4335" d="M34.963,3.686C45.564,0.018,57.438,0.1,67.97,3.976c5.85,2.147,11.202,5.544,15.769,9.771
+			c-1.526,1.659-3.184,3.205-4.763,4.819c-3.003,3-6.002,6.012-9.014,9.008c-2.979-2.846-6.616-5.008-10.563-6.206
+			c-4.645-1.405-9.647-1.599-14.389-0.586c-5.539,1.187-10.679,4.08-14.633,8.128c-3.206,3.246-5.646,7.235-7.112,11.551
+			c-5.353-4.152-10.703-8.307-16.058-12.458C12.846,16.712,23.018,7.777,34.963,3.686z"></path></g><g><path id="XMLID_3_" fill="#FBBC05" d="M2.947,40.317c0.861-4.27,2.295-8.424,4.258-12.315c5.355,4.151,10.706,8.306,16.058,12.458
+			c-2.112,6.126-2.097,12.948-0.009,19.08C17.903,63.695,12.557,67.856,7.2,72.002C2.289,62.307,0.78,50.961,2.947,40.317z"></path></g><g><path id="XMLID_2_" fill="#4285F4" d="M50.981,40.818c15.369-0.002,30.74-0.006,46.113,0.002
+			c1.53,8.614,1.192,17.596-1.249,26.011c-2.241,7.712-6.471,14.893-12.399,20.342c-5.18-4.039-10.386-8.057-15.568-12.099
+			c5.147-3.438,8.778-9.027,9.813-15.135c-8.9-0.006-17.803-0.003-26.703,0C50.974,53.567,50.984,47.194,50.981,40.818z"></path></g><g><path id="XMLID_1_" fill="#34A853" d="M7.2,72.002c5.356-4.146,10.703-8.307,16.055-12.461c2.041,6.03,6.018,11.386,11.23,15.048
+			c3.26,2.299,6.995,3.93,10.909,4.711c3.851,0.781,7.835,0.696,11.696,0.035c3.833-0.673,7.551-2.084,10.787-4.26
+			c5.183,4.042,10.389,8.06,15.568,12.099c-5.608,5.18-12.635,8.727-20.061,10.436c-8.215,1.872-16.906,1.921-25.068-0.268
+			c-6.469-1.723-12.57-4.804-17.806-8.979C14.962,83.953,10.39,78.33,7.2,72.002z"></path></g></g></svg></div>
+					</div>
+													<div class="uael-review-content">Ha molti prodotti eccellenti</div>
+					</div>
+	</div>
+</div>
+<div class="uael-review-wrap">
+	<div class="uael-review uael-review-type-google">
+				<div class="uael-review-inner-wrap">
+					<div class="uael-review-header">
+							<div data-bg="url(https://lh4.ggpht.com/-eUxgQtxeLy8/AAAAAAAAAAI/AAAAAAAAAAA/00lkMlaQBt0/s128-c0x00000000-cc-rp-mo/photo.jpg)" class="uael-review-image rocket-lazyload" style=""></div>
+						<div class="uael-review-details">
+											<span class="uael-reviewer-name">Giorgio Massobrio</span>
+													<span class="elementor-star-rating__wrapper">
+						<span class="uael-star-rating"><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i><i class="fa fa-star uael-star-full uael-star-custom" aria-hidden="true"></i></span>
+					</span>
+													<span class="uael-review-time">6 months ago</span>
+											</div>
+							<div class="uael-review-icon-wrap">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g><path id="XMLID_5_" fill="#FFFFFF" d="M34.963,3.686C23.018,7.777,12.846,16.712,7.206,28.002
+		c-1.963,3.891-3.397,8.045-4.258,12.315C0.78,50.961,2.289,62.307,7.2,72.002c3.19,6.328,7.762,11.951,13.311,16.361
+		c5.236,4.175,11.336,7.256,17.806,8.979c8.163,2.188,16.854,2.14,25.068,0.268c7.426-1.709,14.452-5.256,20.061-10.436
+		c5.929-5.449,10.158-12.63,12.399-20.342c2.441-8.415,2.779-17.397,1.249-26.011c-15.373-0.009-30.744-0.004-46.113-0.002
+		c0.003,6.375-0.007,12.749,0.006,19.122c8.9-0.003,17.802-0.006,26.703,0c-1.034,6.107-4.665,11.696-9.813,15.135
+		c-3.236,2.176-6.954,3.587-10.787,4.26c-3.861,0.661-7.846,0.746-11.696-0.035c-3.914-0.781-7.649-2.412-10.909-4.711
+		c-5.212-3.662-9.189-9.018-11.23-15.048c-2.088-6.132-2.103-12.954,0.009-19.08c1.466-4.316,3.907-8.305,7.112-11.551
+		c3.955-4.048,9.095-6.941,14.633-8.128c4.742-1.013,9.745-0.819,14.389,0.586c3.947,1.198,7.584,3.359,10.563,6.206
+		c3.012-2.996,6.011-6.008,9.014-9.008c1.579-1.615,3.236-3.161,4.763-4.819C79.172,9.52,73.819,6.123,67.97,3.976
+		C57.438,0.1,45.564,0.018,34.963,3.686z"></path><g><path id="XMLID_4_" fill="#EA4335" d="M34.963,3.686C45.564,0.018,57.438,0.1,67.97,3.976c5.85,2.147,11.202,5.544,15.769,9.771
+			c-1.526,1.659-3.184,3.205-4.763,4.819c-3.003,3-6.002,6.012-9.014,9.008c-2.979-2.846-6.616-5.008-10.563-6.206
+			c-4.645-1.405-9.647-1.599-14.389-0.586c-5.539,1.187-10.679,4.08-14.633,8.128c-3.206,3.246-5.646,7.235-7.112,11.551
+			c-5.353-4.152-10.703-8.307-16.058-12.458C12.846,16.712,23.018,7.777,34.963,3.686z"></path></g><g><path id="XMLID_3_" fill="#FBBC05" d="M2.947,40.317c0.861-4.27,2.295-8.424,4.258-12.315c5.355,4.151,10.706,8.306,16.058,12.458
+			c-2.112,6.126-2.097,12.948-0.009,19.08C17.903,63.695,12.557,67.856,7.2,72.002C2.289,62.307,0.78,50.961,2.947,40.317z"></path></g><g><path id="XMLID_2_" fill="#4285F4" d="M50.981,40.818c15.369-0.002,30.74-0.006,46.113,0.002
+			c1.53,8.614,1.192,17.596-1.249,26.011c-2.241,7.712-6.471,14.893-12.399,20.342c-5.18-4.039-10.386-8.057-15.568-12.099
+			c5.147-3.438,8.778-9.027,9.813-15.135c-8.9-0.006-17.803-0.003-26.703,0C50.974,53.567,50.984,47.194,50.981,40.818z"></path></g><g><path id="XMLID_1_" fill="#34A853" d="M7.2,72.002c5.356-4.146,10.703-8.307,16.055-12.461c2.041,6.03,6.018,11.386,11.23,15.048
+			c3.26,2.299,6.995,3.93,10.909,4.711c3.851,0.781,7.835,0.696,11.696,0.035c3.833-0.673,7.551-2.084,10.787-4.26
+			c5.183,4.042,10.389,8.06,15.568,12.099c-5.608,5.18-12.635,8.727-20.061,10.436c-8.215,1.872-16.906,1.921-25.068-0.268
+			c-6.469-1.723-12.57-4.804-17.806-8.979C14.962,83.953,10.39,78.33,7.2,72.002z"></path></g></g></svg></div>
+					</div>
+													<div class="uael-review-content">Qualità e cortesia.</div>
+					</div>
+	</div>
+</div>
+			</div>
+							<div class="uael-business-reviews-footer"></div>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section></div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+
+<div class="site-footer">
+			<div data-elementor-type="footer" data-elementor-id="365" class="elementor elementor-365 elementor-location-footer" data-elementor-settings="[]">
+		<div class="elementor-inner">
+			<div class="elementor-section-wrap">
+						<section class="elementor-element elementor-element-432ac77 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="432ac77" data-element_type="section"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7b4923b elementor-column elementor-col-100 elementor-top-column" data-id="7b4923b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-62919eb elementor-widget elementor-widget-divider" data-id="62919eb" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-a92b8da elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="a92b8da" data-element_type="section"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7a0c31b elementor-column elementor-col-25 elementor-top-column" data-id="7a0c31b" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-d0ed720 elementor-column elementor-col-25 elementor-top-column" data-id="d0ed720" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4d5a490 elementor-widget elementor-widget-text-editor" data-id="4d5a490" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Enoteca Giardino di Vino<br>Via Guido Reni, 113/b, 10137 Torino TO<br>P. IVA <em>08829520017</em></p><p>Tel. 011 314 96 65</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-cf1c6ac elementor-column elementor-col-50 elementor-top-column" data-id="cf1c6ac" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-9d0bd62 elementor-widget elementor-widget-html" data-id="9d0bd62" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<a href="https://www.google.com/maps/dir//Enoteca+Giardino+di+Vino,+Torino/"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Google Map of Enoteca Giardino di Vino, Torino" data-lazy-src="//res.cloudinary.com/enoteca-giardino-di-vino/image/upload/v1586723530/staticmap_ghkckw.png"><noscript><img src="//res.cloudinary.com/enoteca-giardino-di-vino/image/upload/v1586723530/staticmap_ghkckw.png" alt="Google Map of Enoteca Giardino di Vino, Torino"></noscript></a>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section></div>
+		</div>
+		</div>
+		</div>
+
+<link rel="stylesheet" id="wpacu-combined-css-head-1" href="http://OFFLINEZIP.wpsho/wp-content/cache/asset-cleanup/css/head-d6433437bf5b77a2a0007b2a4cbf4fd756469503.css" type="text/css" media="all"><script id="wpacu-combined-js-body-group-1" type="text/javascript" src="http://OFFLINEZIP.wpsho/wp-content/cache/asset-cleanup/js/body-d7bc67206784fed532f1e2b9d3908ed0af02e80c-1.js"></script><div id="cookie-notice" role="banner" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: rgba(255,255,255,1);"><div class="cookie-notice-container" style="color: #0a0a0a;"><span id="cn-notice-text" class="cn-text-container">Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza sul nostro sito. Se continui ad utilizzare questo sito noi assumiamo che tu ne sia felice.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap">Ok</a><a href="http://OFFLINEZIP.wpsho/privacy-policy/" target="_blank" id="cn-more-info" class="cn-more-info cn-button bootstrap">Privacy policy</a></span><a href="javascript:void(0);" id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon"></a></div>
+			
+		</div>
+		<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){return}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){return}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://PLACEHOLDER.wpsho/wp-content/plugins/wp-rocket/assets/js/lazyload/12.0/lazyload.min.js"></script></body></html>
