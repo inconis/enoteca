@@ -1,0 +1,1 @@
+(function($,api){api.sectionConstructor['gp-upsell-section']=api.Section.extend({attachEvents:function(){},isContextuallyActive:function(){return true;}});})(jQuery,wp.customize);
