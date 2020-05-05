@@ -1,0 +1,4 @@
+.ast-advanced-headers-different-logo .advanced-header-logo, .ast-header-break-point .ast-has-mobile-header-logo .advanced-header-logo {display: inline-block;}
+.ast-header-break-point.ast-advanced-headers-different-logo .ast-has-mobile-header-logo .ast-mobile-header-logo {display: none;}
+.ast-advanced-headers-layout {width: 100%;}
+.ast-header-break-point .ast-advanced-headers-parallax {background-attachment: fixed;}
